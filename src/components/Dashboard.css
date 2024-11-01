@@ -1,0 +1,26 @@
+/* Dashboard.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+
+  background-image: url('C:\Users\m mahesh\Downloads\TotalProjects\intellJ\MaheshProject\tourism-recommender\src\Assets\photo.avif'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  min-height: 100vh; /* Make sure it covers the viewport height */
+  color: white; /* Change text color to white for better contrast */
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent navbar background */
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4); /* Slightly transparent container background for better readability */
+  border-radius: 8px; /* Rounded corners for a polished look */
+}

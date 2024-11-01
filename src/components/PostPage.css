@@ -1,0 +1,120 @@
+/* PostPage.css */
+
+/* Container styling */
+.posts-page-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes full viewport height */
+}
+
+/* Header and buttons styling */
+.buttons-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 1rem; /* Space between buttons */
+  margin-bottom: 1.5rem; /* Space below the buttons */
+}
+
+/* Button styling */
+.btn-secondary, .btn-primary {
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem; /* Adjust padding for button size */
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Card styling */
+.post-card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 400px; /* Set a maximum height to ensure uniform card sizes */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.75rem 1.25rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  height: 100%; /* Take up all remaining space */
+}
+
+.card-img-top, .video {
+  width: 100%;
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensure images and videos cover the container */
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem; /* Add padding around text */
+  flex: 1; /* Allow text to use remaining space */
+}
+
+/* Alert styling */
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border-color: #bee5eb;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .post-card {
+    margin-bottom: 1rem;
+  }
+
+  .btn-secondary, .btn-primary {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .post-card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .post-card {
+    margin-bottom: 2rem;
+  }
+}

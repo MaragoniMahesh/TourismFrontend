@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.quotes {
+  margin: 20px 0;
+}
+
+.images img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+.navigation button {
+  margin: 5px;
+}
+
+.registration-page, .login-page {
+  text-align: center;
+  padding: 20px;
+}
